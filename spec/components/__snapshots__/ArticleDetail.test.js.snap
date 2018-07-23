@@ -1,0 +1,37 @@
+exports[`ArticleDetail should matches the snapshot 1`] = `
+<div
+  className="container-article">
+  <div
+    className="box-info">
+    <div>
+      <button
+        onClick={[Function]}>
+        Volver
+      </button>
+    </div>
+    <h2>
+      the title
+    </h2>
+    <h3>
+      my author
+    </h3>
+    <p>
+      the content
+    </p>
+    <h4>
+      Tags:
+    </h4>
+    <TagList />
+    <p>
+      Publised: 
+      No
+    </p>
+    <div>
+      <button
+        onClick={[Function]}>
+        Volver
+      </button>
+    </div>
+  </div>
+</div>
+`;

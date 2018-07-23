@@ -1,0 +1,18 @@
+exports[`ArticleList should matches the snapshot 1`] = `
+<div
+  className="container">
+  <div
+    className="box"
+    key="ABC123">
+    <Link
+      className="link-article"
+      replace={false}
+      to="/article/ABC123">
+      <h3
+        className="box-title" />
+    </Link>
+    <p
+      className="box-excerpt" />
+  </div>
+</div>
+`;

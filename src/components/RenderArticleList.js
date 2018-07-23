@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function ArticleList({ items }) {
+function RenderArticleList({ items }) {
   return (
     <div className="container">
       { items.map(item => (
@@ -14,7 +14,7 @@ function ArticleList({ items }) {
   );
 }
 
-ArticleList.propTypes = {
+RenderArticleList.propTypes = {
   items: PropTypes.arrayOf(PropTypes.shape(
     {
       id: PropTypes.string,
@@ -23,8 +23,8 @@ ArticleList.propTypes = {
     })),
 };
 
-ArticleList.defaultProps = {
+RenderArticleList.defaultProps = {
   items: [],
 };
 
-export default ArticleList;
+export default RenderArticleList;

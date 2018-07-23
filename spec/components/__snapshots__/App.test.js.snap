@@ -1,0 +1,28 @@
+exports[`App matches the snapshot 1`] = `
+<BrowserRouter>
+  <div
+    className="App">
+    <div
+      className="header">
+      <h1>
+        Header
+      </h1>
+    </div>
+    <div
+      className="body">
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/" />
+      <Route
+        exact={true}
+        path="/article/:id"
+        render={[Function]} />
+    </div>
+    <div
+      className="footer">
+      Footer
+    </div>
+  </div>
+</BrowserRouter>
+`;
